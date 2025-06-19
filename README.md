@@ -4,4 +4,4 @@ A simple static webpage as a gift for my girlfriend . Although a personal projec
 You can check this out with 
 
 <br>
-Link: https://nathan-chon.github.io/jennate-2/
+Link: https://nathan-chon.github.io/JenNateLove/
