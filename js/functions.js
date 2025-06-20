@@ -135,16 +135,3 @@ function showLoveU() {
 	$('#loveu').fadeIn(3000);
 }
 
-function imageRotation() {
-	var myImage = document.querySelector('#myImage');
-
-        myImage.addEventListener('click',function(e) {
-            var src = (e.target.src || e.srcElement.src);
-
-            if(src == image.jpg) {
-                src = image2.jpg;
-            } else {
-                src = image.jpg;
-            }
-        },false);
-}
