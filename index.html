@@ -15,12 +15,12 @@
 <script type="text/javascript" src="js/jquery.js"></script>
 <script type="text/javascript" src="js/garden.js"></script>
 <script type="text/javascript" src="js/functions.js"></script>
-<script type="text/javascript" src="js/imageRotation.js"></script>
+
 
 </head>
 
 <body>
-<img src="image.jpg" id="myImage">
+
 <div id="mainDiv">
 	<div id="content">
 		<div id="code">
@@ -101,5 +101,19 @@ if (!document.createElement('canvas').getContext) {
 	$("#code").typewriter();
 }
 </script>
+<img src="image.jpg" id="myImage">
+<script>
+        var myImage = document.querySelector('#myImage');
+
+        myImage.addEventListener('click',function(e) {
+            var src = (e.target.src || e.srcElement.src);
+
+            if(src == 'foo.jpg') {
+                src = 'bar.jpg';
+            } else {
+                src = 'foo.jpg';
+            }
+        },false);
+    </script>
 </body>
 </html>
