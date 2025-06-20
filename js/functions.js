@@ -128,7 +128,7 @@ function adjustWordsPosition() {
 }
 
 function adjustCodePosition() {
-	$('#code').css("margin-top", ($("#garden").height() - $("#code").height()) / 4);
+	$('#code').css("margin-top", ($("#garden").height() - $("#code").height()) / 8);
 }
 
 function showLoveU() {
